@@ -25,13 +25,18 @@
   <meta name="keywords"
     content="Sc3p73r,Sc3p73r portfolio,Sc3p73r Site,Sc3p73r me,Sc3p73r web,Sc3p73r github" />
   <meta name="author" content="Sc3p73r" />
-  <meta property="og:image" content="#" />
+  <meta property="og:image" content="https://www.waiyan.dev/src/webp/howy.png" />
   <meta property="og:title" content="Sc3p73r | Portfolio" />
   <meta property="og:description"
     content="Hi! My name is Htet Oo Wai Yan. I'm a system & devops engineer" />
 
   <meta property="og:url" content="https://www.waiyan.dev" />
   <meta property="og:site_name" content="Sc3p73r Portfolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sc3p73r | Portfolio" />
+  <meta name="twitter:description" content="Hi! My name is Htet Oo Wai Yan. I'm a system & devops engineer" />
+  <meta name="twitter:image" content="https://www.waiyan.dev/src/webp/howy.png" />
+  <link rel="canonical" href="https://www.waiyan.dev/" />
 
  
   <title>Sc3p73r | Portfolio</title>
@@ -43,7 +48,7 @@
   <!-- google fonts-->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
-
+ </head>
 <body class="body">
   <!-- <audio loop="" id="audioPlayer" style="display: none">
     <source src="src/mp3/preloader.mp3" type="audio/mp3" />
@@ -56,7 +61,7 @@
     <div class="cursor-outer" id="cursor-outer"></div>
 
     <div class="navbar" id="navbar">
-      <div class="hey">Hello!</div>
+      
       <!-- <div class="logo" tabindex="0" aria-label="sc3p73r logo">
         <div class="logo-top">
           <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
@@ -64,38 +69,36 @@
       </div> -->
       <div class="navbar-tabs" id="navbar-tabs">
         <ul class="navbar-tabs-ul">
-          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+          <li class="navbar-tabs-li home activeThistab" data-aos="fade-down" data-aos-delay="100">
             <a href="#home" tabindex="0" aria-label="Home menu button">
               &#60;/Home&#62;
             </a>
           </li>
 
-          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+          <li class="navbar-tabs-li about" data-aos="fade-down" data-aos-delay="300">
             <a href="#about" aria-label="about menu button">
               &#60;/AboutMe&#62;
             </a>
           </li>
 
-          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+          <li class="navbar-tabs-li skills" data-aos="fade-down" data-aos-delay="500">
             <a href="#skills" aria-label="skills menu button">
               &#60;/Skills&#62;
             </a>
           </li>
 
-          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+          <li class="navbar-tabs-li projects" data-aos="fade-down" data-aos-delay="700">
             <a href="#projects" aria-label="projects menu button">
               &#60;/Projects&#62;
             </a>
           </li>
 
-           <li class="blogs" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="900">
-            <a href="https://blogs.vitaltechmyanmar.com" target="_blank" aria-label="blogs menu button">
+           <li class="navbar-tabs-li blogs" data-aos="fade-down" data-aos-delay="900">
+            <a href="https://blogs.vitaltechmyanmar.com" target="_blank" rel="noopener noreferrer" aria-label="blogs menu button">
               &#60;/Blogs&#62;
             </a>
           </li>
 
-        </ul>
-      </div>
         </ul>
       </div>
       <!-- navbar tabs ends -->
@@ -139,7 +142,7 @@
           </a>
         </li>
           <li id="blogs-mobile-tab" class="mobile-navbar-tabs-li blogs" onclick="hidemenubyli()">
-          <a href="https://blogs.vitaltechmyanmar.com" target="_blank" tabindex="0" aria-label="blogs menu button">
+          <a href="https://blogs.vitaltechmyanmar.com" target="_blank" rel="noopener noreferrer" tabindex="0" aria-label="blogs menu button">
             &#60;/Blogs&#62;
           </a>
         </li>
@@ -202,11 +205,10 @@
         I have been working experience in areas of system administration, design, implementation & support of Windows Server Systems, Linux, Container and networking.
         </p>
         <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
-          <a href="mailto:sc3p73r@outlook.com" tabindex="-1">
-            <button class="letsTalkBtn">
+          <a href="mailto:sc3p73r@outlook.com" class="letsTalkBtn" tabindex="0">
               <p class="letsTalkBtn-text">Ping Me!</p>
               <span class="letsTalkBtn-BG"></span>
-            </button></a>
+            </a>
           <div class="setting-container" id="setting-container">
             <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
 
@@ -254,7 +256,7 @@
           </div>
 
           <div class="dp" data-aos="fade-up">
-            <img src="src/webp/my.jpg" alt="Htet Oo Wai Yan" tabindex="0" aria-label="Image of Wai Yan" />
+            <img src="src/webp/howy.png" alt="Htet Oo Wai Yan" tabindex="0" aria-label="Image of Wai Yan" />
           </div>
         </div>
       </div>
@@ -381,14 +383,14 @@
         </div>
         <div class="project-boxes-div">
           <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
                 <article class="ProjectHeading">M365 Tenant to Tenant Migration</article>
                 <p class="ProjectDescription">
                   M365 Tenant to Tenant Migration: A comprehensive solution for organizations looking to migrate their Microsoft 365 data seamlessly between tenants.
                 </p>
                 <div class="project-buttons">
-                  <a href="./src/webp/report.png" target="_blank" class="cta"
+                  <a href="./src/webp/report.png" target="_blank" rel="noopener noreferrer" class="cta"
                     aria-label="Visit atomicasher Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -405,7 +407,7 @@
           </div>
           <!-- ---------------------- -->
           <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
                 <!-- <img src="src/ico/stopscams-favicon.ico" alt="stopscams website favicon" class="faviconforProject" /> -->
                 <article class="ProjectHeading">Implementation ThinkAgile HCI Node Setup</article>
@@ -413,7 +415,7 @@
                   Implementation of a robust data center infrastructure for Metro Bank, ensuring high availability, security, and scalability to support their digital banking services.
                 </p>
                 <div class="project-buttons">
-                  <a href="#" target="_blank" class="cta"
+                  <a href="#" target="_blank" rel="noopener noreferrer" class="cta"
                     aria-label="Visit Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -429,20 +431,20 @@
             </div>
           </div>
           <!-- ---------------------- -->
-          <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+          <div data-aos="fade-up" class="project-box-wrapper asset-management-card">
+            <div class="project-box project-box2">
               <div class="info-div">
                 <!-- <img src="src/ico/notesync-favicon.ico" alt="notesync website favicon" class="faviconforProject" /> -->
-                <article class="ProjectHeading">Implementation Open-Source IT Asset Management System</article>
+                <article class="ProjectHeading">Open-Source IT Asset Management System</article>
                 <p class="ProjectDescription">
-                  Implementation of an open-source IT asset management system to streamline asset tracking, management, and reporting for organizations.
+                  Deployed and customized a Snipe-IT based asset management platform to centralize inventory tracking, assignments, and lifecycle reporting.
                 </p>
                 <div class="project-buttons">
-                  <a href="https://github.com/sc3p73r-it/snipe-it" target="_blank" class="github-redirect"
-                    aria-label="Visit Pexelicons on GitHub">
+                  <a href="https://github.com/sc3p73r-it/snipe-it" target="_blank" rel="noopener noreferrer" class="github-redirect"
+                    aria-label="Visit Snipe-IT project on GitHub">
                     <img src="src/svg/github.svg" alt="github redirect button" />
                   </a>
-                  <a href="https://assets.kmagroup.com.mm" target="_blank" class="cta"
+                  <a href="https://assets.kmagroup.com.mm" target="_blank" rel="noopener noreferrer" class="cta"
                     aria-label="Visit Assets Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -453,13 +455,13 @@
                 </div>
               </div>
               <div class="image-div">
-                <img src="src/webp/dashboard.png" alt="NoteSync website preview image" />
+                <img src="src/webp/dashboard.png" alt="IT asset management dashboard preview image" />
               </div>
             </div>
           </div>
           <!-- ---------------------- -->
           <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
                
                 <article class="ProjectHeading">AWS CodeBuild </article>
@@ -467,7 +469,7 @@
                   AWS CodeBuild: A fully managed build service that compiles source code, runs tests, and produces software packages.
                 </p>
                 <div class="project-buttons">
-                  <a href="#" target="_blank" class="cta"
+                  <a href="#" target="_blank" rel="noopener noreferrer" class="cta"
                     aria-label="Visit AWS CodeBuild Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -484,7 +486,7 @@
           </div>
           <!-- ---------------------- -->
           <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
                 <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" /> -->
                 <article class="ProjectHeading">vGPU Server Deployment</article>
@@ -493,7 +495,7 @@
                 </p>
                 <div class="project-buttons">
                   
-                  <a href="#" target="_blank" class="cta"
+                  <a href="#" target="_blank" rel="noopener noreferrer" class="cta"
                     aria-label="Visit vGPU Server Deployment Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -511,7 +513,7 @@
           <!-- --------------------- -->
 
             <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
                 <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" /> -->
                 <article class="ProjectHeading">DevOps Fundamentals Class</article>
@@ -520,7 +522,7 @@
                 </p>
                 <div class="project-buttons">
                   
-                  <a href="#" target="_blank" class="cta"
+                  <a href="#" target="_blank" rel="noopener noreferrer" class="cta"
                     aria-label="Visit DevOps Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -537,7 +539,7 @@
           </div>
           
            <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
                 <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" /> -->
                 <article class="ProjectHeading">EKS Deployment with GitHub Actions</article>
@@ -546,7 +548,7 @@
                 </p>
                 <div class="project-buttons">
                   
-                  <a href="#" target="_blank" class="cta"
+                  <a href="#" target="_blank" rel="noopener noreferrer" class="cta"
                     aria-label="Visit EKS Deployment Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -598,19 +600,19 @@
           </div>
           <div class="logos">
             
-            <a href="https://www.linkedin.com/in/sc3p73r" target="_blank"
+            <a href="https://www.linkedin.com/in/sc3p73r" target="_blank" rel="noopener noreferrer"
               aria-label="My Linkedin"><svg class="SocialHandle" viewBox="0 0 448 512">
                 <path
                   d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
               </svg></a>
 
-            <a href="https://github.com/sc3p73r-it" target="_blank" aria-label="My github"><svg viewBox="0 0 496 512"
+            <a href="https://github.com/sc3p73r-it" target="_blank" rel="noopener noreferrer" aria-label="My github"><svg viewBox="0 0 496 512"
                 class="SocialHandle">
                 <path
                   d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
               </svg></a>
 
-            <a href="mailto:sc3p73r@outlook.com" target="_blank" aria-label="Outlook"><svg id="outlook"
+            <a href="mailto:sc3p73r@outlook.com" target="_blank" rel="noopener noreferrer" aria-label="Outlook"><svg id="outlook"
                 viewBox="0 0 512 512">
                 <path
                   d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
@@ -623,7 +625,7 @@
         <div class="footer-bottom">
           <article>
             Credits to
-            &#169; <a href="https://github.com/vinodjangid07" target="_blank">Vinod Jangid</a>
+            &#169; <a href="https://github.com/vinodjangid07" target="_blank" rel="noopener noreferrer">Vinod Jangid</a>
           </article>
         </div>
       </div>
@@ -669,15 +671,15 @@
         { duration: 500, fill: "forwards" }
       );
 
-      links.forEach((link) => {
-        link.addEventListener("mouseenter", () => {
-          cursorInner.classList.add("hover");
-          cursorOuter.classList.add("hover");
-        });
-        link.addEventListener("mouseleave", () => {
-          cursorInner.classList.remove("hover");
-          cursorOuter.classList.remove("hover");
-        });
+    });
+    links.forEach((link) => {
+      link.addEventListener("mouseenter", () => {
+        cursorInner.classList.add("hover");
+        cursorOuter.classList.add("hover");
+      });
+      link.addEventListener("mouseleave", () => {
+        cursorInner.classList.remove("hover");
+        cursorOuter.classList.remove("hover");
       });
     });
   </script>
